@@ -3,6 +3,13 @@ const fastify = require('fastify');
 const routes = [
   {
     method: 'GET',
+    url: '/',
+    handler(req, res) {
+      res.redirect('/a');
+    },
+  },
+  {
+    method: 'GET',
     url: '/a',
     handler(req, res) {
       res.redirect('/b');

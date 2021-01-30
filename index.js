@@ -24,7 +24,7 @@ const routes = [
         .send([
           'Hello form route /b',
           '<a href="/a">Got to /a</a>',
-          '<a href="https://github.com/Melodyn/vk_redirect">Sources: https://github.com/Melodyn/vk_redirect</a>',
+          '<a href="https://github.com/Melodyn/vk_redirect" target="_blank">Sources: https://github.com/Melodyn/vk_redirect</a>',
         ].join('<br>'));
     },
   },

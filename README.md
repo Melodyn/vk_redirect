@@ -2,6 +2,8 @@
 
 [![CI](../../workflows/CI/badge.svg)](../../actions?query=workflow%3A"CI")
 
+Web: https://melodyn-vk-redirect.herokuapp.com
+
 
 ## Установка и запуск
 

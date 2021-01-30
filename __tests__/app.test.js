@@ -3,7 +3,7 @@ const createApp = require('../index.js');
 let app;
 
 test('Run app', async () => {
-  app = await createApp(process.env.NODE_ENV).catch((e) => e);
+  app = await createApp().catch((e) => e);
   expect(app).not.toBeInstanceOf(Error);
 });
 

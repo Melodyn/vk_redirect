@@ -14,7 +14,11 @@ const routes = [
     handler(req, res) {
       res
         .header('Content-Type', 'text/html; charset=UTF-8')
-        .send('Hello form route /b<br><a href="/a">Got to /a</a>');
+        .send([
+          'Hello form route /b',
+          '<a href="/a">Got to /a</a>',
+          '<a href="https://github.com/Melodyn/vk_redirect">Sources: https://github.com/Melodyn/vk_redirect</a>',
+        ].join('<br>'));
     },
   },
 ];

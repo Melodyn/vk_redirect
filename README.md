@@ -1,25 +1,15 @@
-# iCal
+# Redirect app
 
-[![Maintainability](https://api.codeclimate.com/v1/badges/e23f92e76fd6a091df61/maintainability)](https://codeclimate.com/github/Melodyn/iCal/maintainability)
-[![Production CI](../../workflows/Production%20CI/badge.svg)](../../actions?query=workflow%3A"Production+CI")
-[![Staging CI](../../workflows/Staging%20CI/badge.svg)](../../actions?query=workflow%3A"Staging+CI")
-
-|![логотип](./logo.png)|Node.js-приложение для vk.com. Разрабатывается в формате лайвкодинга
-|---|---|
-
-Ссылки:
-* стримы с разработкой: https://www.youtube.com/playlist?list=PLxqZB2PTPdc7RSb5QpFR1lJ27NEmHtaYa
-* бэкенд приложения: https://melodyn-ical.herokuapp.com/
+[![CI](../../workflows/CI/badge.svg)](../../actions?query=workflow%3A"CI")
 
 
 ## Установка и запуск
 
 Требования:
-* Node.js >= 14;
+* Node.js >= 12;
 * npm >= 6.14;
 * (опционально) make >= 4;
 * (опционально) docker >= 20;
-* (опционально) heroku >= 7.47.
 
 Разворачивание:
 * Клонировать этот репозиторий;

@@ -1,6 +1,6 @@
 {
   "name": "@melodyn/vk_redirect",
-  "version": "1.0.2-alpha.0",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "jest": {

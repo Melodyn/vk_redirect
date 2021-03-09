@@ -30,6 +30,6 @@ describe('Positive cases', () => {
     });
 
     expect(statusCode).toEqual(302);
-    expect(headers.location).toEqual('/b');
+    expect(headers.location).toEqual('/b?');
   });
 });
